@@ -1,6 +1,7 @@
-body[data-project] {
-    background: #111 !important;
-    filter: brightness(90%) invert(100%) hue-rotate(180deg) !important;
+body[data-project],
+body[data-project] .navbar-gitlab .dropdown-menu,
+body[data-project] .notes_holder {
+    filter: brightness(.9) invert(1) hue-rotate(180deg) !important;
 }
 
 gl-emoji,
@@ -8,12 +9,10 @@ gl-emoji,
 body[data-project] img,
 body[data-project] [style*="background"],
 body[data-project] .code,
-body[data-project] .notes_holder,
 body[data-project] .application-theme .preview,
-body[data-project] .navbar-gitlab .dropdown-menu,
 body[data-project] .navbar-gitlab .dropdown-menu img,
 body[data-project] .navbar-gitlab .dropdown-menu gl-emoji {
-    filter: brightness(90%) saturate(123%) invert(100%) hue-rotate(-180deg) !important;
+    filter: hue-rotate(-180deg) invert(1) brightness(1.11) !important;
 }
 
 .navbar-gitlab {
@@ -23,6 +22,10 @@ body[data-project] .navbar-gitlab .dropdown-menu gl-emoji {
 body[data-project] .navbar-gitlab img,
 .navbar-gitlab gl-emoji {
     filter: none !important;
+}
+
+body[data-project] {
+    background: #111 !important;
 }
 
 body[data-project] .modal {
