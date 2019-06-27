@@ -1,12 +1,17 @@
 body.mediawiki,
-body[id*="www-wik"],
+body[id*="www-wik"] {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
 .mediawiki img,
+body[id*="www-wik"] img,
+body[id*="www-wik"] .sprite,
 .ext-related-articles-card-thumb,
 .mw-mmv-pre-image button,
 .mw-mmv-pre-image a[role="button"],
 table.wikitable td[style*="background"]:not([style*="font"]),
 table.wikitable th[style*="background"]:not([style*="font"]) {
-  filter: invert(100%) hue-rotate(180deg) !important;
+  filter: invert(100%) hue-rotate(-180deg) !important;
 }
 
 body.mediawiki,
