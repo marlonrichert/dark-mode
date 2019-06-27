@@ -16,11 +16,11 @@ table.wikitable th[style*="background"]:not([style*="font"]) {
 
 body.mediawiki,
 body[id*="www-wik"] {
-  background: black !important;
+  background: #111 !important;
 }
 
 .mediawiki div[class*="overlay"] {
-  background: white !important;
+  background: #eee !important;
 }
 
 a.image img,
