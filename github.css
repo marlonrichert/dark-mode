@@ -3,6 +3,7 @@ body.env-production {
     filter: invert(100%) hue-rotate(180deg) !important;
 }
 
+g-emoji,
 body.env-production img {
     filter: invert(100%) hue-rotate(-180deg) !important;
 }
