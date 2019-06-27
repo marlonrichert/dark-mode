@@ -1,0 +1,11 @@
+body[data-project] {
+    background: #111 !important;
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+body[data-project] img,
+body[data-project] [style*="background-color"],
+body[data-project] .code,
+gl-emoji {
+    filter: invert(100%) hue-rotate(-180deg) !important;
+}
