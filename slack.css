@@ -1,0 +1,8 @@
+.client_main_container {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+.client_main_container img,
+.client_main_container [style*="background-image:"] {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
