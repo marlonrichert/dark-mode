@@ -1,6 +1,6 @@
 body[data-project] {
     background: #111 !important;
-    filter: invert(100%) hue-rotate(180deg) !important;
+    filter: brightness(90%) invert(100%) hue-rotate(180deg) !important;
 }
 
 gl-emoji,
@@ -13,11 +13,7 @@ body[data-project] .application-theme .preview,
 body[data-project] .navbar-gitlab .dropdown-menu,
 body[data-project] .navbar-gitlab .dropdown-menu img,
 body[data-project] .navbar-gitlab .dropdown-menu gl-emoji {
-    filter: invert(100%) hue-rotate(-180deg) !important;
-}
-
-body[data-project] [style*="background"] {
-    opacity: .9;
+    filter: brightness(90%) saturate(123%) invert(100%) hue-rotate(-180deg) !important;
 }
 
 .navbar-gitlab {
