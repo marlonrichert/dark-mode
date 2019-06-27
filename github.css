@@ -1,0 +1,8 @@
+body.env-production {
+    background: #111 !important;
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+body.env-production img {
+    filter: invert(100%) hue-rotate(-180deg) !important;
+}
