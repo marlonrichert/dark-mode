@@ -27,3 +27,11 @@ body[data-project] .navbar-gitlab img,
 .navbar-gitlab gl-emoji {
     filter: none !important;
 }
+
+body[data-project] .modal {
+    background: rgba(238, 238, 238, .3) !important;
+}
+
+body[data-project] .modal-backdrop {
+    background-color: #eee;
+}
