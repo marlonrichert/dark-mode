@@ -4,6 +4,7 @@ body.env-production {
 }
 
 g-emoji,
-body.env-production img {
+body.env-production img,
+body.env-production [style*="background"] {
     filter: invert(100%) hue-rotate(-180deg) !important;
 }
