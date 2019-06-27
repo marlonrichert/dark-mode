@@ -1,11 +1,21 @@
-body[data-project] {
-    background: #111 !important;
-    filter: invert(100%) hue-rotate(180deg) !important;
-}
-
+.navbar-gitlab,
 body[data-project] img,
-body[data-project] [style*="background-color"],
+body[data-project] [style*="background-color:"],
 body[data-project] .code,
+body[data-project] .application-theme .preview,
 gl-emoji {
     filter: invert(100%) hue-rotate(-180deg) !important;
+}
+
+body[data-project] [style*="background-color:"] {
+    opacity: .9;
+}
+
+.navbar-gitlab {
+    border-bottom-color: #111 !important;
+}
+
+body[data-project] .navbar-gitlab img,
+.navbar-gitlab gl-emoji {
+    filter: none !important;
 }
