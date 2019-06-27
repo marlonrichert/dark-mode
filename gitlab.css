@@ -6,7 +6,7 @@ body[data-project] {
 gl-emoji,
 .navbar-gitlab,
 body[data-project] img,
-body[data-project] [style*="background-color:"],
+body[data-project] [style*="background"],
 body[data-project] .code,
 body[data-project] .application-theme .preview,
 body[data-project] .navbar-gitlab .dropdown-menu,
@@ -15,7 +15,7 @@ body[data-project] .navbar-gitlab .dropdown-menu gl-emoji {
     filter: invert(100%) hue-rotate(-180deg) !important;
 }
 
-body[data-project] [style*="background-color:"] {
+body[data-project] [style*="background"] {
     opacity: .9;
 }
 
