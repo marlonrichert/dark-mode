@@ -1,0 +1,24 @@
+body.mediawiki,
+body[id*="www-wik"],
+.mediawiki img,
+.ext-related-articles-card-thumb,
+.mw-mmv-pre-image button,
+.mw-mmv-pre-image a[role="button"],
+table.wikitable td[style*="background"]:not([style*="font"]),
+table.wikitable th[style*="background"]:not([style*="font"]) {
+  filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+body.mediawiki,
+body[id*="www-wik"] {
+  background: black !important;
+}
+
+.mediawiki div[class*="overlay"] {
+  background: white !important;
+}
+
+a.image img,
+.image-carousel .image-loaded {
+  background: url(https://en.wikipedia.org/w/extensions/MultimediaViewer/resources/mmv/ui/checker.png) repeat !important;
+}
