@@ -1,0 +1,9 @@
+html#facebook {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+html#facebook img,
+html#facebook i.img,
+html#facebook canvas {
+    filter: hue-rotate(-180deg) invert(100%) !important;
+}
