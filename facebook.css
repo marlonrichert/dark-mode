@@ -1,9 +1,12 @@
 html#facebook {
-    filter: invert(100%) hue-rotate(180deg) !important;
+    filter: brightness(.9) invert(1) hue-rotate(180deg) !important;
 }
 
 html#facebook img,
 html#facebook i.img,
-html#facebook canvas {
-    filter: hue-rotate(-180deg) invert(100%) !important;
+html#facebook a[ajaxify*="reaction"] i,
+html#facebook span[style*="emoji"],
+html#facebook canvas,
+html#facebook video {
+    filter: hue-rotate(-180deg) invert(1) brightness(1.11) !important;
 }
