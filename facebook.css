@@ -9,11 +9,18 @@ html#facebook span[style*="emoji"],
 html#facebook canvas,
 html#facebook video,
 html#facebook [role="slider"],
-html#facebook [style*="background-image"] {
+html#facebook [style*="background-image"],
+html#facebook .stageWrapper {
     filter: hue-rotate(-180deg) invert(1) brightness(1.11) !important;
 }
 
 html#facebook [style*="background-image"] span[style*="emoji"],
-html#facebook [style*="background-image"] [style*="background-image"] {
+html#facebook [style*="background-image"] [style*="background-image"],
+html#facebook .stageWrapper img,
+html#facebook .stageWrapper i.img {
     filter: none !important;
+}
+
+html#facebook [role="dialog"] > :first-child {
+    background: hsla(0, 0%, 100%, .9) !important;
 }
