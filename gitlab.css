@@ -15,17 +15,17 @@ body[data-project] .navbar-gitlab .dropdown-menu gl-emoji {
     filter: hue-rotate(-180deg) invert(1) brightness(1.11) !important;
 }
 
-.navbar-gitlab {
-    border-bottom-color: #111 !important;
-}
-
 body[data-project] .navbar-gitlab img,
 .navbar-gitlab gl-emoji {
     filter: none !important;
 }
 
+.navbar-gitlab {
+    border-bottom-color: #111 !important;
+}
+
 body[data-project] {
-    background: #111 !important;
+    background: #1A1A1A !important;
 }
 
 body[data-project] .modal {
