@@ -8,6 +8,12 @@ html#facebook a[ajaxify*="reaction"] i,
 html#facebook span[style*="emoji"],
 html#facebook canvas,
 html#facebook video,
-html#facebook [role="slider"] {
+html#facebook [role="slider"],
+html#facebook [style*="background-image"] {
     filter: hue-rotate(-180deg) invert(1) brightness(1.11) !important;
+}
+
+html#facebook [style*="background-image"] span[style*="emoji"],
+html#facebook [style*="background-image"] [style*="background-image"] {
+    filter: none !important;
 }
